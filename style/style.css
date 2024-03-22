@@ -6,13 +6,11 @@
 @font-face {
   font-family: "marcel deforme";
   src:
-    local("Marcel deforme"),
     url("../font/marcel-deforme.otf") format("opentype"),
 }
 @font-face {
-    font-family: "amiamie";
+    font-family: "Amiamie Regular";
   src:
-    local("Amiamie"),
     url("../font/Amiamie-Regular.otf") format("opentype"),
 }
 
