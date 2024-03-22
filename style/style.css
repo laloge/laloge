@@ -13,13 +13,16 @@
     font-family: "amiamie";
   src:
     local("Amiamie"),
-    url("../font/Amiamie-Black.otf") format("opentype"),
-    url("../font/Amiamie-BlackItalic.otf") format("opentype"),
-    url("../font/Amiamie-Italic.otf") format("opentype"),
-    url("../font/Amiamie-Light.otf") format("opentype"),
-    url("../font/Amiamie-LightItalic.otf") format("opentype"),
     url("../font/Amiamie-Regular.otf") format("opentype"),
 }
+
+/*
+url("../font/Amiamie-Black.otf") format("opentype"),
+url("../font/Amiamie-BlackItalic.otf") format("opentype"),
+url("../font/Amiamie-Italic.otf") format("opentype"),
+url("../font/Amiamie-Light.otf") format("opentype"),
+url("../font/Amiamie-LightItalic.otf") format("opentype"),
+*/
 
 body {
   margin: 0;
