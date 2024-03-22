@@ -48,7 +48,7 @@ nav {
 }
 
 .titre-header {
-  font-family: 'marcel deforme';
+  font-family: "marcel deforme";
   font-weight: normal;  
   font-size: 2em;
   margin-top: -0.2em;
@@ -57,7 +57,7 @@ nav {
   left: 0; /* Positionner le titre à gauche */
 }
 .titre-header span {
-  font-family: 'marcel regular';
+  font-family: "marcel regular";
 }
 
 .content{
