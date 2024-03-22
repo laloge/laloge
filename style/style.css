@@ -11,7 +11,7 @@
 @font-face {
     font-family: "amiamie";
   src:
-    url("../font/amiamie-regular.otf") format("opentype"),
+    url("https://gitlab.com/Mirat-Masson1/Amiamie-Typeface/-/blob/main/webfonts/Amiamie-Regular.woff?ref_type=heads") format("opentype"),
 }
 
 /*
