@@ -8,7 +8,11 @@
   src:
     url("../font/marcel-deforme.otf") format("opentype"),
 }
-
+@font-face {
+    font-family: "amiamie";
+  src:
+    url("../font/amiamie-regular.otf") format("opentype"),
+}
 
 /*
 url("../font/Amiamie-Black.otf") format("opentype"),
