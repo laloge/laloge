@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "marcel";
+  src:
+    local("Marcel"),
+    url("marcel-regular.otf") format("opentype") 
+    url("marcel-deforme.otf") format("opentype"),
+}
+
+
 body {
   margin: 0;
   padding-top: 1em;
