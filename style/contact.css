@@ -1,9 +1,14 @@
+.contact, .contact2{
+    z-index: 6;
+    position: static;
+}
+
 .contact .titre-projet{
     text-align: left;
 }
 
 .contact2 .titre {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 .contact2 a:hover{ 
     color: #FFE600;
@@ -16,6 +21,14 @@
     margin-bottom: -0.05em;
 }
 
+.cartes {
+    width: 400px;
+    transform: rotate(-15deg);
+    position: absolute;
+    margin-left: 40px;
+    z-index: 7;
+    margin-top: 60px;
+}
 @media screen and (max-width: 996px) {
     .contact2 .titre {
         margin-top: 100px;
