@@ -11,9 +11,7 @@
 @font-face {
     font-family: 'amiamie';
   src:
-    url("../font/amiamie-regular.woff2") format("woff2"),
-    url("../font/amiamie-regular.woff") format("woff"),
-
+    url("../font/amiamie-regular.otf") format("opentype"),
 }
 
 /*
