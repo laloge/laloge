@@ -11,7 +11,7 @@
 @font-face {
     font-family: "amiamie";
   src:
-    url("https://gitlab.com/Mirat-Masson1/Amiamie-Typeface/-/blob/main/webfonts/Amiamie-Regular.woff?ref_type=heads") format("opentype"),
+    url("../font/amiamie-regular.otf") format("opentype"),
 }
 
 /*
@@ -57,7 +57,7 @@ nav {
   left: 0; /* Positionner le titre à gauche */
 }
 .titre-header span {
-  font-family: 'marcel';
+  font-family: 'marcel regular';
 }
 
 .content{
