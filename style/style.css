@@ -191,8 +191,12 @@ h5 {
 
 @media screen and (max-width: 996px) {
   body {
-    padding: 1em;
     font-size: 0.8em;
+    margin: 10px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 0em;
+    padding-left: 0em;
   }
 
   .menu{
