@@ -253,20 +253,20 @@ h5 {
 
   /*TYPOTHEQUE*/
   p {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   .titre {
-    font-size: 3.5em;
+    font-size: 4.5em;
     text-align: right;
   }
 
   .sous-titre {
-    font-size: 1.5em;
+    font-size: 3.5em;
   }
 
   .titre-projet {
-    font-size: 3em;
+    font-size: 6em;
     margin-top: 10px;
   }
 }
