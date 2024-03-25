@@ -126,35 +126,55 @@ li {
   .grilleInfos{
     grid-template-columns: 1fr;
   }
-
-  .titre{
-    text-align: right;
-  }
+  .box {
+    grid-column: 0;
+}
 
   .une {
     display: none;
   }
-
-  .deux {
-    grid-column: 1;
-    grid-row: 2;
-    margin-top: -60px;
-  }
-
-  .trois {
+  .intro {
     grid-column: 1;
     grid-row: 1;
   }
 
-  .bouton2 a {
-    margin-right: 20px;
+.deux {
+  grid-column: 1;
+  grid-row: 3;
+
 }
-.bouton2 :last-child {
-  margin-right: 0px;
+.trois {
+  grid-column: 1;
+  grid-row: 2;
 }
 
-.bouton2 {
-  margin-top: 0px;
+.quatre {
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.cinq {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.six {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.sept {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.bouton2-portfolio {
+font-size: 5em;
+}
+
+.bouton2 a {
+  text-align: left;
+  margin-left: 0px;
 }
 
 }
