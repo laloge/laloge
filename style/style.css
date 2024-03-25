@@ -72,6 +72,19 @@ footer {
   }
 }
 
+footer {
+  display: flex;
+}
+
+footer div {
+  display: flex; 
+}
+
+footer div a {
+  margin-right: 10px; 
+}
+
+
 .image-footer{
   img {
     width : 15px; 
@@ -182,6 +195,9 @@ h5 {
     font-size: 0.8em;
   }
 
+  .menu{
+    margin-bottom: 50px;
+  }
   
   /*HEADER*/
   .content {
@@ -210,8 +226,13 @@ h5 {
   .image-footer {
     img {
     width: 2em;
+    padding: 10px;
       }
     margin-left: 0;
+    }
+
+    .telephone {
+      display: none;
     }
 
   /*BOUTON*/
@@ -223,18 +244,17 @@ h5 {
   }
 
   .bouton2-portfolio {
-    font-size: 2.5em;
+    font-size: 10em;
   }
 
   /*TYPOTHEQUE*/
   p {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 
   .titre {
-    font-size: 1.8em;
+    font-size: 3.5em;
     text-align: right;
-    margin-top: 50%;
   }
 
   .sous-titre {
@@ -242,7 +262,8 @@ h5 {
   }
 
   .titre-projet {
-    font-size: 1.8em;
+    font-size: 3em;
+    margin-top: 10px;
   }
 }
 
