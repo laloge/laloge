@@ -25,7 +25,7 @@ body {
   color: white;
   font-size: 1em;
   font-weight: normal;
-  overflow: hidden;
+  overflow: auto;
   background: 
   linear-gradient(to left,rgba(116, 49, 135, 1), rgba(0, 0, 0, 1)75%);
 }
@@ -74,11 +74,12 @@ footer {
 
 .image-footer{
   img {
-    width : 1em; 
+    width : 15px; 
     margin-right: -1.4em;
-    margin-bottom: -0.2em;
+    vertical-align: text-bottom;
     }
-}
+}   
+
 
 
 /* TYPOTHEQUE */

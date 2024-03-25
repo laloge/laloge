@@ -23,18 +23,19 @@ li {
   display: grid;
   grid-template-columns: 150px 1fr 1fr ;
   grid-template-rows: auto ;
-  grid-gap: 50px;
+  grid-gap: 20px;
   z-index: 2;
+  margin-bottom: 30px;
   }
 
 .intro {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 2;
   margin-top: 40px;
-  margin-bottom: -30px;
+  text-align: left;
 }
+
 .une {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -45,11 +46,37 @@ li {
 .deux {
   grid-column: 2;
   grid-row: 2;
+
 }
 
 .trois {
   grid-column: 3;
   grid-row: 2;
+}
+
+.quatre {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.cinq {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.six {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.sept {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
 }
 
   /*TYPOTHEQUE*/
@@ -79,21 +106,19 @@ li {
   margin: 0;
   margin-top: 0.5em;
   }
+
+.titre-projet {
+  text-align: left;
+  }
     
 /*BOUTON*/
 .bouton2-portfolio {
   display: inline;
 }
-.bouton2 a {
-  margin-right: 100px;
-}
-
-.bouton2 :last-child {
-    margin-right: 0px;
-}
 
 .bouton2 {
-  margin-top: -120px;
+  margin-top: 50px;
+  text-align: left;
 }
 
 @media screen and (max-width: 996px) {
