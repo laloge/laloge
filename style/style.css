@@ -134,7 +134,6 @@ p {
   font-weight: normal;
   text-shadow: 1px 0 10px  ;
   text-align: right;
-  overflow-wrap: break-word;
 }
 
 .sous-titre {
@@ -276,7 +275,7 @@ h5 {
   }
 
   .titre-projet {
-    font-size: 4.8em;
+    font-size: 4.6em;
     margin-top: 10px;
   }
 }
