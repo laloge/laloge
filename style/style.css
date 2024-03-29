@@ -12,6 +12,8 @@
     font-family: 'amiamie';
   src:
     url("../font/amiamie-regular.otf") format("opentype"),
+    url("../font/marcel-regular.woff") format("woff"),
+    url("../font/marcel-regular.woff2") format("woff2"),
 }
 
 body {
@@ -265,7 +267,7 @@ h5 {
   }
 
   .titre-projet {
-    font-size: 6em;
+    font-size: 5em;
     margin-top: 10px;
   }
 }
