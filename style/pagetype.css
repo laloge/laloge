@@ -285,11 +285,11 @@ body {
   }
   
   .carousel-container::-webkit-scrollbar-thumb {
-    background: #29AB87;
+    background: #e9f414;
   }
   
   .carousel-container::-webkit-scrollbar-track-piece:start {
-    background: #29AB87;
+    background: #e9f414;
   }
   
   .carousel-slide {
