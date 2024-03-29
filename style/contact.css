@@ -43,4 +43,13 @@
     .contact2 img {
         width: 15px;
     }
+    .cartes {
+        margin-bottom: 60px;
+    }
+
+    .contact2 img {
+        width: 60px;
+        filter: drop-shadow(1px 0 20px white) ;
+        margin-bottom: -0.05em;
+    }
 }

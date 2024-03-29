@@ -44,18 +44,21 @@ nav {
 .titre-header {
   font-family: 'marcel deforme';
   font-weight: normal;  
-  font-size: 2em;
+  font-size: 4em;
   margin-top: -0.2em;
   position: absolute; /* Modifier la position */
   top: 0; /* Positionner le titre en haut */
   left: 0; /* Positionner le titre à gauche */
+  text-shadow: 1px 0 20px  ;
 }
+
 .titre-header span {
   font-family: 'marcel regular';
 }
 
 .content{
   margin: 1em;
+  font-size: 2em;
 }
 
 a {
