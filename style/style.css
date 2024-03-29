@@ -209,7 +209,7 @@ h5 {
   }
 
   .menu{
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
   
   /*HEADER*/
@@ -274,6 +274,7 @@ h5 {
   .titre {
     font-size: 8em;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .sous-titre {
