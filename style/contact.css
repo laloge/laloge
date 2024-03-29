@@ -38,8 +38,8 @@
     .contact .titre-projet {
         margin-right: 20px;
         margin-top: 80px;
-
     }
+
     .contact2 img {
         width: 15px;
     }
@@ -47,10 +47,11 @@
     .cartes {
         margin-bottom: 60px;
         margin-top: auto;
+        width: 70%;
     }
 
     .contact2 img {
-        width: 50px;
+        width: 40px;
         filter: drop-shadow(1px 0 20px white) ;
         margin-bottom: -0.05em;
     }
