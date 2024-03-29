@@ -135,6 +135,7 @@ p {
   text-shadow: 1px 0 10px  ;
   text-align: right;
   display: inline;
+  overflow-wrap: break-word;
 }
 
 .sous-titre {
