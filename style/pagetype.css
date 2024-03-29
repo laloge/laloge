@@ -2,8 +2,6 @@ body {
     overflow: auto;
 }
 
-
-
 .intro{
     width: 100%;  
     text-align: left;
@@ -13,11 +11,7 @@ body {
 .box {
     position: relative;
 }
-
-span.deforme {
-    font-family: 'marcel';
-}
-
+/*PORTRAIT*/
 .portrait {
     display: flex;
     justify-content: space-between;
@@ -31,12 +25,12 @@ span.deforme {
     margin-left: 20px;
 }
 
-
 .portrait img {
     flex: 1;
 }
 
-.titre-sommaire {
+/*TYPOTHEQUE*/
+.titre {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -48,13 +42,29 @@ span.deforme {
     width: 100%;
 }
 
-.box h1 {
+.sous-titre {
     margin-top: 0;
     text-shadow: 1px 0 10px rgb(0, 0, 0);
     font-size: 3em;
     color: white;
+    text-align: center;
 }
 
+.titre-projet {
+    margin-top: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.texte-vertical {
+    padding: 0;
+}
+
+.grille-photo .titre-projet {
+    text-align: center;
+}
+
+/*GRILLE*/
 .grille1, .grille2, .grille3, .grille4 {
     display: grid;
     margin-right: 16px;
@@ -123,6 +133,7 @@ span.deforme {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
+    grid-row-end: 6;
 }
 
 .deux {
@@ -170,8 +181,86 @@ span.deforme {
     grid-row: 4;
 }
 
+/*MARCEL*/
+.onze {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row: 3;
+}
 
+.onze img {
+    margin: 0;
+}
 
+.douze {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.treize {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.quatorze {
+    grid-column: 4;
+    grid-row: 4;
+}
+/*LIGUETYPO & WIKIPEDIA*/
+.quinze{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 2;
+    grid-gap: 0;
+}
+
+.seize {
+    grid-column: 4;
+    grid-row-start: 2;
+    height: 100%;
+}
+
+.dixsept {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.dixhuit {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.dixneuf {
+    grid-column: 4;
+    grid-row-start: 3;
+}
+
+.quinze img, .seize img {
+    margin-bottom: 0px;
+  }
+
+.marges {
+    margin-top: 29px;
+    margin-bottom: 0px;
+}
+
+.marges2 {
+    margin-top: 10px;
+}
+
+.marges3 {
+    margin-top: 27px;
+}
+
+/*consulter*/ 
+.video{
+    width: 100%;  
+    text-align: left;
+    margin-top: 0px; 
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;}
 
 /* caroussel*/
 
@@ -222,85 +311,23 @@ span.deforme {
   }
 
   @media screen and (max-width: 996px) {
-    .grille1 h1 {
-        font-size: 1em;
-    }
-
-    h6 {
-        display: none;
-    }
 
     .grille1, .grille2, .grille3, .grille4 {
-        margin-right: 0px;
+    grid-template-columns: 1fr;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    margin-left: -20px;
     }
-
-    .grille1, .grille2, .grille3, .grille4 {
-    grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .intro, .intro2 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;}    
 
     .une {
         display: none;
     }
     
-    .deux {
-        grid-column: 1;
-        grid-row: 2;
+    .box {
+        grid-column: 0;
     }
-    
-    .trois {
-        grid-column: 2;
-        grid-row: 2;
-    }
-    
-    .quatre {
-        grid-column: 3;
-        grid-row: 2;
-    }
-    
-    .cinq {
-        grid-column: 1;
-        grid-row: 3;
-    }
-    
-    .six {
-        grid-column: 2;
-        grid-row: 3;
-    }
-    
-    .sept {
-        grid-column: 3;
-        grid-row: 3;
-    }
-    
-    .huit {
-        grid-column: 1;
-        grid-row: 4;
-    }
-    
-    .neuf {
-        grid-column: 2;
-        grid-row: 4;
-    }
-    
-    .dix {
-        grid-column: 3;
-        grid-row: 4;
-    }
-    
-    
-    .grille4 .deux {
-        grid-column-start: 1;
-        grid-column-end: 5;
-    }
-
-    .grille4 .cinq {
-        grid-column-start: 1;
-        grid-column-end: 5;
+    .grille1 .titre {
+        font-size: 3em;
     }
   }
