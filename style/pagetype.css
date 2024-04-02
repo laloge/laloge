@@ -11,6 +11,10 @@ body {
 .box {
     position: relative;
 }
+.imagetel{
+    display: none;
+}
+
 /*PORTRAIT*/
 .portrait {
     display: flex;
@@ -56,6 +60,10 @@ body {
     padding: 0;
 }
 
+.intro p {
+    padding-right: 100px;
+}
+
 .texte-vertical {
     padding: 0;
 }
@@ -64,11 +72,15 @@ body {
     text-align: center;
 }
 
+.retour{
+    margin-bottom: 20px
+}
+
 /*GRILLE*/
 .grille1, .grille2, .grille3, .grille4 {
     display: grid;
     margin-right: 16px;
-    grid-template-columns: 150px 1fr 1fr 1fr;
+    grid-template-columns: 120px 1fr 1fr 1fr;
     grid-template-rows: auto ;
     grid-gap: 20px;
     z-index: 2;
@@ -310,6 +322,8 @@ body {
     object-fit: cover; /* This property ensures the image covers the entire container */
   }
 
+
+
   @media screen and (max-width: 996px) {
 
     .grille1, .grille2, .grille3, .grille4 {
@@ -330,4 +344,13 @@ body {
     .grille1 .titre {
         font-size: 3em;
     }
+    .intro p{
+        padding:0;
+    }
+
+    .imagetel{
+        display: block;
+        width: 100%
+    }
+    
   }
