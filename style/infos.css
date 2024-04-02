@@ -120,7 +120,7 @@ li {
   text-align: left;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 996px) {
 
   .grilleInfos{
     grid-template-columns: 1fr;

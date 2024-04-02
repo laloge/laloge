@@ -58,7 +58,7 @@
   }
 
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 996px) {
     .background-image {
     background-size: cover;
     background-position: center;
