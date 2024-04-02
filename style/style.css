@@ -204,7 +204,7 @@ h5 {
     padding: 0;
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   body {
     margin: 20px;
     padding-top: 1em;

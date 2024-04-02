@@ -46,7 +46,6 @@ li {
 .deux {
   grid-column: 2;
   grid-row: 2;
-
 }
 
 .trois {
@@ -121,7 +120,7 @@ li {
   text-align: left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
 
   .grilleInfos{
     grid-template-columns: 1fr;
@@ -133,15 +132,14 @@ li {
   .une {
     display: none;
   }
+  
   .intro {
     grid-column: 1;
     grid-row: 1;
   }
 
 .deux {
-  grid-column: 1;
-  grid-row: 3;
-
+display: none;
 }
 .trois {
   grid-column: 1;

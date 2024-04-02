@@ -29,7 +29,7 @@
     z-index: 7;
     margin-top: 60px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .contact2 .titre {
         margin-top: 100px;
         text-align: right;
