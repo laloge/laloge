@@ -163,7 +163,7 @@ p {
 }
 
 .retour{
-  margin-bottom: 40px
+  margin-bottom: 20px
 }
 
 /*
@@ -289,6 +289,9 @@ h5 {
   .titre-projet {
     font-size: 4.5em;
     margin-top: 20px;
+  }
+  .retour{
+    margin-bottom: 40px
   }
 }
 
